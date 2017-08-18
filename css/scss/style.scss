@@ -1,0 +1,88 @@
+/*--------------------------
+ reset
+--------------------------*/
+@import "_reset";
+
+/*--------------------------
+ FONTS
+--------------------------*/
+@import "_fonts";
+
+
+
+/*--------------------------
+ GLOBAl
+--------------------------*/
+
+body{
+	color: #000;
+	min-width: 320px;
+	background: #fff;
+	line-height: 1.6;
+	font-size: 16px;
+	height: 100%;
+	font-family: "LatoRegular", sans-serif;
+}
+
+#map{
+  width: 800px;
+  margin: 10px auto;
+  height: 400px;
+}
+
+.btns{
+	text-align: center;
+	margin: 20px;
+}
+
+.title{
+	font-size: 18px;
+	font-style: italic;
+}
+
+.form{
+	width: 300px;
+	background-color: grey;
+	margin: 0 auto;
+	padding: 25px;
+	&-input__wapper{
+		margin: 10px;
+	}
+	&__label{
+		display: block;
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+		margin-bottom: 3px;
+	}
+	&__input{
+		display: inline-block;
+		width: 100%;
+		padding: 5px;
+		font-size: 18px;
+		color: #000;
+	}
+	&__btn-wrapper{
+		text-align: center;
+		min-height: 10px
+	}
+}
+
+.btn{
+	display: inline-block;
+	color: #000;
+	border: none;
+	transition: 0.3s;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	cursor: pointer;
+	&:hover{
+		box-shadow: 0px 4px 9px -4px #000;
+	}
+	&:focus{
+		box-shadow: 0px 1px 9px -4px #000;
+	}
+}
+/*--------------------------
+ CUSTOM CODE GOES HERE
+--------------------------*/
